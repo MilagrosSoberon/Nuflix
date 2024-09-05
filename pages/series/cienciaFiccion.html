@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NUFLIX</title>
+    <link rel="icon" href="../../assets/images/nav/icon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../../styles/style.css" />
+    <link rel="stylesheet" href="../../styles/navbar.css" />
+    <link rel="stylesheet" href="../../styles/serie.css">
+    <link rel="stylesheet" href="../../styles/generos/cienciaFiccion.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="../../index.html">
+          <img
+            src="../../assets/images/nav/logo.jpg"
+            alt="Logo"
+            width="80"
+            height="80"
+          />
+        </a>
+      </div>
+      <div class="marca">
+        <img   src="../../assets/images/nav/NUFLIX.png" alt="">
+      </div>
+      <nav class="navbar navbar-expand-lg custom-navbar">
+        <div class="container-fluid">
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Buscar..."
+              aria-label="Search"
+            />
+            <button class="btn" type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link custom-nav-link" href="../../index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle custom-nav-link" href="../series.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Series
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="../series.html">TOP 10</a></li>
+                  <li><a class="dropdown-item" href="./accion.html">Acción</a></li>
+                  <li><a class="dropdown-item" href="./comedia.html">Comedia</a></li>
+                  <li><a class="dropdown-item" href="./drama.html">Drama</a></li>
+                  <li><a class="dropdown-item" href="./cienciaFiccion.html">Ciencia Ficción</a></li>
+              </ul>
+            </li>
+            </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="header-line"></div>
+    <br>
+    <div id="">
+      <main>
+        <div class="img-text">
+          <img src="../../assets/images/series/ficcion-text.png" alt="">
+        </div>
+        <div id="contenedorCienciaFiccion">
+          <script src="../../js/script.js"></script>
+        </div>
+      </main>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

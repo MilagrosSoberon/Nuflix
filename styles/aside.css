@@ -1,0 +1,50 @@
+/* ----------------------aside------------------------ */
+aside{
+    width: 700px;
+    background-color: #d7a0bd;
+    padding: 10px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #a22769;
+}
+
+a {
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 25px;
+    color: white;
+    background-color: #80346f;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-link:hover {
+    background-color: #602954;
+  }
+  
+  .button-link:active {
+    background-color: #602954;
+  }

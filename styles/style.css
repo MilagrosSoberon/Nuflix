@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap'); 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: #171433 !important;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5246b3;
+    padding-right: 30px
+}
+
+header img {
+    margin-right: 1rem;
+}
+
+.navbar {
+    flex: 1; 
+}
+
+#container {
+    display: flex;
+    flex-grow: 1;
+    height: calc(100vh - 120px); 
+}
+
+#container h1{
+    color: white;
+}
+
+/* ----------------------logo------------------------ */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centrar la imagen verticalmente */
+    margin-left: 10px;
+    padding: 0px;
+}
+
+/* ----------------------marca NUFLIX------------------------ */
+.marca {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centrar la imagen verticalmente */
+    height: 32px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.marca img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Ajustar la imagen dentro del contenedor */
+}
+
+/* ----------------------titulo------------------------ */
+.img-text {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centrar la imagen verticalmente */
+    height: 50px;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.img-text img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Ajustar la imagen dentro del contenedor */
+}
+
+
+/* ----------------------aside------------------------ */
+aside{
+    width: 600px;
+    background-color: #532f9a;
+    padding: 10px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+aside nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside nav li {
+    margin-bottom: 10px;
+}
+
+aside nav a {
+    text-decoration: none;
+    color: #532f9a;
+}
+
+
+aside a{
+    /* font-family: "Cinzel", serif; */
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    
+  }
+
+aside .button-link {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-size: 1.2em;
+    color: white;
+    background-color: #5246b3;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  aside .button-link:hover {
+    background-color: #bab2ff;
+  }
+  
+  aside.button-link:active {
+    background-color: #bab2ff;
+  }

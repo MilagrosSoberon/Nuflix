@@ -1,0 +1,72 @@
+.titulo-content {
+  text-align: center;
+  color: white;
+}
+#contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .serie {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .serie:hover {
+    transform: scale(1.05);
+  }
+  
+  .poster {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .titulo {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .sinopsis, .genero, .votos, .promedio {
+    font-size: 0.9em;
+    color: #666;
+    margin: 10px 20px;
+    text-align: left;
+  }
+  
+  .sinopsis {
+    height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+
+  /* Botón Cargar */
+#botonCargar {
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid #4a298d;
+  border-radius: 50%;
+  height: 42px;
+  line-height: 42px;
+  transition: .3s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #532f9a; 
+}
+
+#botonCargar:hover {
+  background-color: #41387a;
+  border-color: #4a298d;
+}
